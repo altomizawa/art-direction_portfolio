@@ -1,0 +1,45 @@
+.navmenu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  transition: 250ms ease-out;
+}
+
+.navmenu__link{
+  color: black;
+  cursor: pointer;
+  transition: 250ms ease-out;
+  position: relative;
+  font-size: 3rem;;
+}
+
+.navmenu__link:hover{
+  color: darkslategray;
+}
+
+.navmenu__link:after{
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 0%;
+  height: 6px;
+  background-color: orange;
+  transition: 250ms ease-out;
+}
+
+.navmenu__link:hover:after{
+  width: 100%;
+}
+
+.navmenu_hidden{
+  transform: translateX(100%);
+}
+

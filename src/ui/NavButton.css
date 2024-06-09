@@ -1,0 +1,38 @@
+.navbutton{
+  border: 1px solid darkslategray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  width: 50px;
+  aspect-ratio: 1/1;
+  position: fixed;
+  right: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+}
+
+.navbutton__menu-line{
+  width: 30px;
+  height: 2px;
+  background-color: darkslategray;
+  transition: 250ms ease-out;
+}
+
+
+.navbutton__menu-line_top{
+  transform: translateY(10px) rotate(45deg);
+  transform-origin: center;
+}
+
+.navbutton__menu-line_bottom{
+  transform: translateY(-10px) rotate(-45deg);
+  transform-origin: center;
+}
+
+.navbutton__menu-line_middle{
+  opacity: 0;
+}
