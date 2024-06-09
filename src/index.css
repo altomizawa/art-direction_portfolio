@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&display=swap');
+
+
 /*
 ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */
@@ -575,3 +578,18 @@ body {
   min-height: 100vh;
 }
 
+*{
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p{
+  font-weight: 300;
+  font-size: 1.2rem;
+}
