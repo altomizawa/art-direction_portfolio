@@ -17,7 +17,7 @@
   cursor: pointer;
   transition: 250ms ease-out;
   position: relative;
-  font-size: 3rem;;
+  font-size: 2rem;;
 }
 
 .navmenu__link:hover{
@@ -43,3 +43,9 @@
   transform: translateX(100%);
 }
 
+
+@media (max-width:800px) {
+  .navmenu{
+    flex-direction: column;
+  }
+}
