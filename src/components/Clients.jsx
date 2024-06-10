@@ -9,7 +9,7 @@ function Clients() {
         <h3 className='clients__names'>PENNZOIL<span>WHISKAS</span>JBL<span>UNCLEBEN'S</span>ANHEUSER-BUSCH<span>PLAYSTATION</span>PENNZOIL<span>WHISKAS</span>JBL<span>UNCLEBEN'S</span>ANHEUSER-BUSCH</h3>
         <h3 className='clients__names clients__names_reverse'>PENNZOIL<span>WHISKAS</span>JBL<span>UNCLEBEN'S</span>ANHEUSER-BUSCH<span>PLAYSTATION</span>PENNZOIL<span>WHISKAS</span>JBL<span>UNCLEBEN'S</span>ANHEUSER-BUSCH</h3>
       </div>
-      <a href='/work' className='clients__link'><code>&gt;&gt;</code> SEE MY WORK <code>&lt;&lt;</code></a>
+      <a href='/work' className='clients__link'>SEE MY WORK</a>
     </div>
   )
 }

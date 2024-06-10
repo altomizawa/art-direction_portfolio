@@ -18,7 +18,6 @@ function Work() {
       ease: 'none',
       transformOrigin: 'left',
       stagger: 0.05,
-      ease: 'back'
     })
   })
 

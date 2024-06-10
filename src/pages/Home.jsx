@@ -1,4 +1,3 @@
-import NavButton from '../ui/NavButton'
 import scrollIcon from '../../public/assets/scroll2.json'
 import Lottie from 'lottie-react';
 
@@ -8,14 +7,6 @@ import Clients from '../components/Clients';
 import Footer from '../components/Footer';
 
 function Home() {
-  const lottieOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: scrollIcon,
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid'
-    }
-  };
 
   return (
     <div className='home'>

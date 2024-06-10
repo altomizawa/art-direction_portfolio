@@ -1,12 +1,10 @@
 import './App.css'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
-import { useState } from 'react'
 import Work from './pages/Work'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 
 function App() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
     <BrowserRouter>
