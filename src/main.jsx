@@ -1,4 +1,5 @@
 import React, { useState } from 'react'; // Import useState
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
@@ -11,10 +12,12 @@ function Root() {
 
   return (
     <React.StrictMode>
-      <App />
-      <NavMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      <NavButton isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      {/* <CustomCursor /> */}
+      <BrowserRouter>
+        <App />
+        <NavMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+        <NavButton isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+        {/* <CustomCursor /> */}
+      </BrowserRouter>
     </React.StrictMode>
   );
 }
