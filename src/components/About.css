@@ -57,8 +57,41 @@
   opacity: 0.8;
 }
 
+.about-wrapper_mobile{
+  display: none;
+}
+
 @media (max-width: 900px) {
+  .about-wrapper_mobile{
+    padding-block: 20vh;
+    display: block
+  }
+
+  .about-text_mobile{
+    font-size: 10vw;
+    margin-left: 10%;
+    position: relative;
+
+    a{
+      color: orange;
+    }
+  }
+
+  .about__overlay_mobile{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+  }
+
+  .about-wrapper{
+    display: none;
+  } 
   .about-text{
-    font-size: 6vw;
+    font-size: 8vw;
+    transform: translateX(5%)
   }
 }
