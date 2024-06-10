@@ -57,7 +57,7 @@
 .work__client-line{
   width: 1px;
   height: 50vh;
-  background-color: white;
+  background-color: orange;
 }
 
 .work__client-link{
@@ -65,6 +65,8 @@
   cursor: pointer;
   transition: 250ms ease-in-out;
   position: relative;
+  font-size: 1.5rem;
+  text-wrap: nowrap;
   }
   
 .work__client-link:hover{
@@ -116,7 +118,7 @@
 }
 
 #ten{
-  transform: translateY(15%);
+  transform: translateY(20%);
 }
 .work__header_mobile{
   display: none;
@@ -160,34 +162,31 @@
   }
   .work__clients_mobile{
     width: 100vw;
-    height: 300vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: left;
     position: relative;
-    transform: translateX(-20%) translatey(40%);
-
+    gap: 5rem;
+    padding-block: 8rem;
   }
 
   .work__client-wrapper_mobile{
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    width: 100vw;
-    /* position: fixed;
-    top: -40vh;
-    left: -30vw; */
-    transform-origin: left;
-    transform: rotate(-90deg);
+    width: 45vw;
   }
 
   .work__client-line_mobile{
     width: 100%;
     height: 1px;
-    background-color: white;
+    background-color: orange;
   }
 
   .work__client-link_mobile{
     text-wrap: nowrap;
+    cursor: pointer;
+    font-size: 2rem;
   }
+
 }

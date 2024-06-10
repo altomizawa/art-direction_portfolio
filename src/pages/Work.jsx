@@ -14,10 +14,11 @@ function Work() {
   useGSAP(() => {
     gsap.from('.work__client-wrapper_mobile', {
       rotate: '90deg',
-      duration: 4,
+      duration: 1,
       ease: 'none',
       transformOrigin: 'left',
-      stagger: 0.5,
+      stagger: 0.05,
+      ease: 'back'
     })
   })
 
@@ -68,7 +69,7 @@ function Work() {
         </li>
         <li className='work__client-wrapper' id='ten'>
           <div className='work__client-line'></div>
-          <a className='work__client-link'>PERSONAL<br></br>WORK</a>
+          <a className='work__client-link'>PERSONAL WORK</a>
         </li>
       </ul>
 
