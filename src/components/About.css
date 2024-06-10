@@ -10,18 +10,19 @@
 .about{
   width: 100vw;
   background-color:black;
+  overflow: hidden;
 }
 
 .about-wrapper{
-  padding-block: 20rem;
+  padding-block: 30vh;
 }
 
 .about-text{
   width: 100%;
   margin: auto;
-  transform: translateX(10%);
+  transform: translateX(15%);
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 4.5rem;
   position: relative;
 
   span{
@@ -44,6 +45,7 @@
 }
 .about__line-wrapper{
   position: relative;
+  margin-top: -1vh;
 }
 .about__overlay{
   width: 100%;

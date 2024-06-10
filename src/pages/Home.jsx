@@ -4,6 +4,9 @@ import Lottie from 'lottie-react';
 
 import './Home.css'
 import About from '../components/About';
+import Clients from '../components/Clients';
+import Footer from '../components/Footer';
+
 function Home() {
   const lottieOptions = {
     loop: true,
@@ -28,6 +31,8 @@ function Home() {
         <Lottie className='lottie' animationData={scrollIcon} loop={true} />
       </div>
       <About />
+      <Clients />
+      <Footer />
     </div>
   )
 }

@@ -1,0 +1,33 @@
+.footer{
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  padding-block: 8vh;
+}
+
+.footer__link{
+  font-size: 4rem;
+  position: relative;
+}
+
+.footer__link:after{
+  content: '';
+  width: 0;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 250ms ease-in-out;
+}
+
+.footer__link:hover:after{
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .footer__link{
+    font-size: 8vw;
+  }
+  
+}

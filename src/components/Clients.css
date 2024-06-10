@@ -1,0 +1,83 @@
+@keyframes marquee{
+  to{
+    transform: translateX(-51ch)
+  }
+}
+
+@keyframes pulse {
+  to{
+    scale: 1.1;
+    /* text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6; */
+  }
+}
+
+.clients{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.clients__line{
+  width: 10%;
+  height: 5px;
+  background-color: orange;
+  margin-top: 10vh;
+}
+
+.clients__title{
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 5vh
+}
+
+.clients__carousel{
+  width: 100%;
+  overflow: hidden;
+}
+
+.clients__names{
+  font-size: 10rem;
+  text-wrap: nowrap;
+  animation: marquee 15s infinite linear forwards;
+
+  span{
+    color:rgb(36, 36, 36);
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white, 1px 1px 0 white;
+  }
+}
+
+.clients__names_reverse{
+  animation: marquee 15s infinite linear forwards reverse;
+
+}
+
+.clients__link{
+  font-size: 2rem;
+  margin-bottom: 5vh;
+  transition: 250ms ease-in-out;
+  animation: pulse 500ms infinite alternate;
+}
+
+.clients__link:hover{
+  color: orange;
+  /* text-decoration: underline; */
+  text-decoration-line: underline;
+  text-underline-offset: 0.5rem;
+}
+
+/* ------------------ MEDIA QUERIES ---------------*/
+@media (max-width: 800px) {
+  .clients__title{
+    font-size: 4.5vw;
+  }
+  
+  .clients__names{
+    font-size: 20vw;
+  }
+
+  .clients__link{
+    font-size: 5vw
+}
+

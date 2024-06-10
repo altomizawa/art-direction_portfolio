@@ -21,7 +21,7 @@ function About() {
             scrub: 1,
           },
           duration: 10,
-          x: '100%',
+          x: '90vw',
         })
 
       })
@@ -53,11 +53,11 @@ function About() {
           <div id='lineFive' className='about__overlay'></div>
         </div>
         <div className='about__line-wrapper'>
-          <h2 className='about-text'>and working for <a>BBH NY</a> and</h2>
+          <h2 className='about-text'>and working for <a href="https://www.bartleboglehegarty.com/" target='_blank'>BBH NY</a> and</h2>
           <div id='lineSix' className='about__overlay'></div>
         </div>
         <div className='about__line-wrapper'>
-          <h2 className='about-text'><a>TBWA\Chiat\Day</a> Los Angeles.</h2>
+          <h2 className='about-text'><a href="https://tbwachiatdayla.com/" target='_blank'>TBWA\Chiat\Day</a> Los Angeles.</h2>
           <div id='lineSeven' className='about__overlay'></div>
         </div>        
       </div>

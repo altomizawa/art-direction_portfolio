@@ -4,9 +4,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 5px;
   border-radius: 100px;
-  width: 50px;
+  width: 40px;
   aspect-ratio: 1/1;
   position: fixed;
   right: 4rem;
@@ -21,7 +21,7 @@
 }
 
 .navbutton__menu-line{
-  width: 30px;
+  width: 20px;
   height: 2px;
   background-color: white;
   transition: 250ms ease-out;
@@ -29,13 +29,13 @@
 
 
 .navbutton__menu-line_top{
-  transform: translateY(10px) rotate(45deg);
+  transform: translateY(7px) rotate(45deg);
   transform-origin: center;
   background-color: darkslategray;
 }
 
 .navbutton__menu-line_bottom{
-  transform: translateY(-10px) rotate(-45deg);
+  transform: translateY(-7px) rotate(-45deg);
   transform-origin: center;
   background-color: darkslategray;
 }
