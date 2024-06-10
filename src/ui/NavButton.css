@@ -46,8 +46,8 @@
 
 @media (max-width:800px) {
   .navbutton{
-    top: 5rem;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 3rem;
+    right: 2rem;
+    /* transform: translateX(-50%); */
   }
 }

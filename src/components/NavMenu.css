@@ -10,6 +10,7 @@
   align-items: center;
   gap: 70px;
   transition: 250ms ease-out;
+  z-index: 10;
 }
 
 .navmenu__link{
