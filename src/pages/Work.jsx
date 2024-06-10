@@ -11,13 +11,23 @@ function Work() {
       stagger: 0.05,
     })
   })
+  
   useGSAP(() => {
-    gsap.from('.work__client-wrapper_mobile', {
-      rotate: '90deg',
-      duration: 1,
+    gsap.timeline()
+    .from('.work__client-wrapper_mobile', {
+      // rotate: '110deg',
+      x: '-100%',
+      duration: 0.5,
       ease: 'none',
       transformOrigin: 'left',
       stagger: 0.05,
+    })
+    .from('.work__client-link_mobile', {
+      rotateX: '90deg',
+      duration: 1,
+      ease: 'none',
+      transformOrigin: 'left',
+      stagger: 0.1,
     })
   })
 
@@ -68,7 +78,7 @@ function Work() {
         </li>
         <li className='work__client-wrapper' id='ten'>
           <div className='work__client-line'></div>
-          <a className='work__client-link'>PERSONAL WORK</a>
+          <a className='work__client-link'>MISCELLANEOUS</a>
         </li>
       </ul>
 
@@ -116,7 +126,7 @@ function Work() {
         </li>
         <li className='work__client-wrapper_mobile'>
           <div className='work__client-line_mobile'></div>
-          <a className='work__client-link_mobile'>PERSONAL WORK</a>
+          <a className='work__client-link_mobile'>MISCELLANEOUS</a>
         </li>
       </ul>
     </div>
