@@ -7,7 +7,9 @@
     transform: translateY(0%);
   }
 }
-
+.home{
+  background-color: #242424;
+}
 .home__hero{
   width: 100vw; 
   height: 100vh;

@@ -8,6 +8,7 @@
 .work{
   width: 100vw;
   height: 100vh;
+  background-color: #242424;
 }
 
 /* ------------ DESKTOP VERSION --------------- */
@@ -140,6 +141,9 @@
 
 /* -------------- MOBILE VERSION (PORTRAIT)------------------- */
 @media (max-width: 800px) {
+  .work{
+    height: max-content
+  }
   
   .work__header_mobile{
     display: flex;
