@@ -38,11 +38,7 @@ export default function Client() {
         </div>
       )
       })}
-      <nav className='client__nav'>
-        <div>
-          {db.map((client) => <a href={`/work/${client.name.toLowerCase()}`} key={client.id} className={client.name.toLowerCase()===params.client ? 'client__link_active' : 'client__link'}>{client.name.toUpperCase()}</a>)}
-        </div>
-      </nav>
+      
     </div>
     
   )

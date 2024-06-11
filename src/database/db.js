@@ -227,13 +227,13 @@ export const db = [
     videoLinks: [
       {
         id: 1,
-        name: 'The Duel',
-        link: "https://www.youtube.com/embed/6VzPdfW2G_8?si=d9RIoyRq72c0OkBR",
+        name: 'Showdown',
+        link: "https://www.youtube.com/embed/IDHdyJLspaY?si=Rvl7URV23JipIWkm",
       },
       {
         id: 2,
         name: 'The Duel 2',
-        link: "https://www.youtube.com/embed/6VzPdfW2G_8?si=d9RIoyRq72c0OkBR",
+        link: "https://www.youtube.com/embed/IDHdyJLspaY?si=Rvl7URV23JipIWkm",
       },
     ]
   },

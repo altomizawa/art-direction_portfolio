@@ -50,43 +50,9 @@
   }
 }
 
-.client__nav{
-  position: fixed;
-  width: 100vw;
-  top: 0;
-  left: 0;
-  height: 11vh;
-  padding-left: 4vw;
-  display: flex;
-  align-items: flex-end;
-  background-color: #191919;
-  /* box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; */
 
-  div{
-    display: flex;
-    padding-inline: 1.5rem;
-    gap: 2rem;
-    width: 70%;
-    overflow-x: auto;
-    border-top: 1px solid darkslategray;
-    border-bottom: 1px solid darkslategray;
-    margin-bottom: 1.5rem;
-  }
-}
 
-.client__link{
-  color: darkslategray;
-  font-weight: 300;
-  font-size: 1rem;
-  text-wrap: nowrap;
-  }
-  
-  .client__link_active{
-    color: orange;
-    font-weight: 300;
-    font-size: 1rem;
-    text-wrap: nowrap;
-}
+
 
 .client__video{
   margin-top: 7vh;
