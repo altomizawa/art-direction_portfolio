@@ -9,7 +9,6 @@
 
   h1{
     text-transform: uppercase;
-    width: max-content;
     max-width: 70%;
     line-height: 1;
     position: relative;
@@ -43,6 +42,7 @@
 
 .client__image-wrapper{
   margin-top: 3rem;
+
   p{
     font-size: 1rem;
     text-align: center;;
