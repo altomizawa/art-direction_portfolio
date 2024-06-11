@@ -37,7 +37,7 @@
 .client__description{
   margin-top: 1rem;
   font-weight: 300;
-  font-size: 1rem;;
+  font-size: 1.2rem;;
 }
 
 .client__image-wrapper{
@@ -76,11 +76,11 @@
 .client__link{
   color: darkslategray;
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .client__link_active{
   color: orange;
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
