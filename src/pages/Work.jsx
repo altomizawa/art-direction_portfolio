@@ -46,7 +46,7 @@ function Work() {
         </li>
         <li className='work__client-wrapper' id='two'>
           <div className='work__client-line'></div>
-          <a href='/work/clients/unclebens' className='work__client-link'>UNCLE BEN'S</a>
+          <a href="/work/clients/uncle%20ben's" className='work__client-link'>UNCLE BEN'S</a>
         </li>
         <li className='work__client-wrapper' id='three'>
           <div className='work__client-line'></div>
@@ -66,7 +66,7 @@ function Work() {
         </li>
         <li className='work__client-wrapper' id='seven'>
           <div className='work__client-line'></div>
-          <a href='/work/clients/socom' className='work__client-link'>SOCOM</a>
+          <a href='/work/clients/playstation%20socom' className='work__client-link'>PLAYSTATION<br></br> SOCOM</a>
         </li>
         <li className='work__client-wrapper' id='eight'>
           <div className='work__client-line'></div>
@@ -94,7 +94,7 @@ function Work() {
         </li>
         <li className='work__client-wrapper_mobile'>
           <div className='work__client-line_mobile'></div>
-          <a href='/work/clients/unclebens' className='work__client-link_mobile'>UNCLE BEN'S</a>
+          <a href="/work/clients/uncle%20ben's" className='work__client-link_mobile'>UNCLE BEN'S</a>
         </li>
         <li className='work__client-wrapper_mobile'>
           <div className='work__client-line_mobile'></div>
@@ -114,7 +114,7 @@ function Work() {
         </li>
         <li className='work__client-wrapper_mobile'>
           <div className='work__client-line_mobile'></div>
-          <a href='/work/clients/socom' className='work__client-link_mobile'>SOCOM</a>
+          <a href='/work/clients/playstation%20socom' className='work__client-link_mobile'>PLAYSTATION SOCOM</a>
         </li>
         <li className='work__client-wrapper_mobile'>
           <div className='work__client-line_mobile'></div>

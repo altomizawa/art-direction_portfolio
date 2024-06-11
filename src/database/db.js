@@ -28,6 +28,7 @@ import pennzoil1 from '../assets/clients/Pennzoil_centerfold_low.jpg'
 import pennzoil2 from '../assets/clients/Pennzoil_Sumo.jpg'
 import rainx from '../assets/clients/RainX_bug&tar_low.jpg'
 import socom from '../assets/clients/SOCOM_low.jpg'
+import hoover from '../assets/clients/Hoover_times square.jpg'
 
 
 export const db = [
@@ -255,7 +256,7 @@ export const db = [
   },
   {
     id: 7,
-    name: "Socom",
+    name: "Playstation Socom",
     campaign: "Orchestrate the perfect op.",
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
     hasPrint: true,
@@ -268,5 +269,32 @@ export const db = [
     ],
     hasVideo: false,
     videoLinks: []
+  },
+  {
+    id: 8,
+    name: "Uncle Ben's",
+    campaign: "Bring more to the table.",
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    hasPrint: false,
+    imageLinks: [
+    {
+      id: 1,
+      name: 'Hostage',
+      link: socom,
+    },
+    ],
+    hasVideo: true,
+    videoLinks: [
+      {
+        id: 1,
+        name: 'Showdown',
+        link: "https://www.youtube.com/embed/IDHdyJLspaY?si=Rvl7URV23JipIWkm",
+      },
+      {
+        id: 2,
+        name: 'The Duel 2',
+        link: "https://www.youtube.com/embed/IDHdyJLspaY?si=Rvl7URV23JipIWkm",
+      },
+    ]
   },
 ]
