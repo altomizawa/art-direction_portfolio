@@ -24,6 +24,10 @@ import michelob9 from '../assets/clients/Michelob/Mich Trapeze copy.jpg'
 import whiskas1 from '../assets/clients/Whiskas/Whiskas-manifesto_low.jpg'
 import whiskas2 from '../assets/clients/Whiskas/Whiskas_Predator_low.jpg'
 import whiskas3 from '../assets/clients/Whiskas/Whiskas_Fluffy_low.jpg'
+import pennzoil1 from '../assets/clients/Pennzoil_centerfold_low.jpg'
+import pennzoil2 from '../assets/clients/Pennzoil_Sumo.jpg'
+import rainx from '../assets/clients/RainX_bug&tar_low.jpg'
+import socom from '../assets/clients/SOCOM_low.jpg'
 
 
 export const db = [
@@ -32,6 +36,7 @@ export const db = [
     name: "JBL",
     campaign: "Destination Anywhere Tour",
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    hasPrint: true,
     imageLinks: [
     { 
       id: 1,
@@ -102,6 +107,7 @@ export const db = [
     name: "Playstation",
     campaign: "E3 is coming to LA",
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    hasPrint: true,
     imageLinks: [
     {
       id: 1,
@@ -115,25 +121,14 @@ export const db = [
     },
     ],
     hasVideo: false,
-    videoLinks: [
-      {
-        id: 1,
-        name: '',
-        link: '',
-      },
-      {
-        id: 2,
-        name: '',
-        link: '',
-      },
-
-    ]
+    videoLinks: []
   },
   {
     id: 3,
     name: "Michelob",
     campaign: "A pleasant surprise",
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    hasPrint: true,
     imageLinks: [
     {
       id: 1,
@@ -182,24 +177,14 @@ export const db = [
     },
     ],
     hasVideo: false,
-    videoLinks: [
-      {
-        id: 1,
-        name: '',
-        link: '',
-      },
-      {
-        id: 2,
-        name: '',
-        link: '',
-      },
-    ]
+    videoLinks: []
   },
   {
     id: 4,
     name: "Whiskas",
     campaign: "Your cat has an inner beast. Feed it.",
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    hasPrint: true,
     imageLinks: [
     {
       id: 1,
@@ -218,17 +203,70 @@ export const db = [
     },
     ],
     hasVideo: false,
+    videoLinks: []
+  },
+  {
+    id: 5,
+    name: "Pennzoil",
+    campaign: "Not just oil, Pennzoil",
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    hasPrint: true,
+    imageLinks: [
+    {
+      id: 1,
+      name: 'Centerfold',
+      link: pennzoil1,
+    },
+    {
+      id: 2,
+      name: 'Sumo',
+      link: pennzoil2,
+    },
+    ],
+    hasVideo: true,
     videoLinks: [
       {
         id: 1,
-        name: '',
-        link: '',
+        name: 'The Duel',
+        link: "https://www.youtube.com/embed/6VzPdfW2G_8?si=d9RIoyRq72c0OkBR",
       },
       {
         id: 2,
-        name: '',
-        link: '',
+        name: 'The Duel 2',
+        link: "https://www.youtube.com/embed/6VzPdfW2G_8?si=d9RIoyRq72c0OkBR",
       },
     ]
+  },
+  {
+    id: 6,
+    name: "Rain-X",
+    campaign: "Protect your car from nature's worst",
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    hasPrint: true,
+    imageLinks: [
+    {
+      id: 1,
+      name: 'Pigeon',
+      link: rainx,
+    },
+    ],
+    hasVideo: false,
+    videoLinks: []
+  },
+  {
+    id: 7,
+    name: "Socom",
+    campaign: "Orchestrate the perfect op.",
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    hasPrint: true,
+    imageLinks: [
+    {
+      id: 1,
+      name: 'Hostage',
+      link: socom,
+    },
+    ],
+    hasVideo: false,
+    videoLinks: []
   },
 ]

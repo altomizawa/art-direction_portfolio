@@ -6,6 +6,21 @@ export default function Client() {
   const params = useParams();
   const filteredArray = db.filter((item) =>item.name.toLowerCase()===params.client)
   const client = filteredArray[0]
+
+  const Video = () => {
+    return (
+      <>
+        {client.videoLinks.map((video) => {
+          return (
+            <div key={video.id} className='client__video-wrapper'>
+              <iframe className='client__video' width="560" height="315" src={video.link} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
+          )
+        })}
+      </>
+    )
+  }
+
   return (
     <div className='client'>
       <div className='client__title-wrapper'>
@@ -14,6 +29,7 @@ export default function Client() {
         <h2>{client.name}</h2>
       </div>
       <p className='client__description'>{client.description}</p>
+      {client.hasVideo && <Video />}
       {client.imageLinks.map((image) => {
       return (
         <div className='client__image-wrapper' key={image.id}>
@@ -24,7 +40,7 @@ export default function Client() {
       })}
       <nav className='client__nav'>
         <div>
-          {db.map((client) => <a href={`/work/${client.name.toLowerCase()}`} key={client.id} className={client.name.toLowerCase()===params.client ? 'client__link_active' : 'client__link'}>{client.name}</a>)}
+          {db.map((client) => <a href={`/work/${client.name.toLowerCase()}`} key={client.id} className={client.name.toLowerCase()===params.client ? 'client__link_active' : 'client__link'}>{client.name.toUpperCase()}</a>)}
         </div>
       </nav>
     </div>
