@@ -28,7 +28,8 @@ import pennzoil1 from '../assets/clients/Pennzoil_centerfold_low.jpg'
 import pennzoil2 from '../assets/clients/Pennzoil_Sumo.jpg'
 import rainx from '../assets/clients/RainX_bug&tar_low.jpg'
 import socom from '../assets/clients/SOCOM_low.jpg'
-import hoover from '../assets/clients/Hoover_times square.jpg'
+import hoover from '../assets/clients/Hoover_timesSquare.jpg'
+import mayumisDream from '../assets/clients/MAYUMISDREAM/Wiener-in-Bathtub.jpg'
 
 
 export const db = [
@@ -229,12 +230,12 @@ export const db = [
       {
         id: 1,
         name: 'Showdown',
-        link: "https://www.youtube.com/embed/IDHdyJLspaY?si=Rvl7URV23JipIWkm",
+        link: "https://www.youtube.com/embed/_wB2xsTGG88?si=etlA-CkXWEEaNgty",
       },
       {
         id: 2,
-        name: 'The Duel 2',
-        link: "https://www.youtube.com/embed/IDHdyJLspaY?si=Rvl7URV23JipIWkm",
+        name: 'Save the engines',
+        link: "https://www.youtube.com/embed/Cf1A11ERMlw?si=L4JvvBCpzUWOuTRU",
       },
     ]
   },
@@ -276,25 +277,58 @@ export const db = [
     campaign: "Bring more to the table.",
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
     hasPrint: false,
+    imageLinks: [],
+    hasVideo: true,
+    videoLinks: [
+      {
+        id: 1,
+        name: 'Microwave',
+        link: "https://www.youtube.com/embed/xskyu4_iRDc?si=CuMgUqlWkgvEXe3K",
+      },
+      {
+        id: 2,
+        name: 'Chef',
+        link: "https://www.youtube.com/embed/f7XI-VOkbFo?si=EQfghGCgpmNowfcJ",
+      },
+    ]
+  },
+  {
+    id: 9,
+    name: "Hoover",
+    campaign: "Grabs dirt and doesn't let go.",
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    hasPrint: true,
     imageLinks: [
-    {
-      id: 1,
-      name: 'Hostage',
-      link: socom,
-    },
+      {
+        id: 1,
+        name: 'Times Square Billboard',
+        link: hoover,
+      },
+    ],
+    hasVideo: false,
+    videoLinks: [],
+  },
+  {
+    id: 10,
+    name: "Miscellaneous",
+    campaign: "Stuff not related to ads.",
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    hasPrint: true,
+    imageLinks: [
+      {
+        id: 1,
+        name: 'Wiener in a Bathtub - My daughter had this dream and I created it',
+        link: mayumisDream,
+      },
     ],
     hasVideo: true,
     videoLinks: [
       {
         id: 1,
-        name: 'Showdown',
-        link: "https://www.youtube.com/embed/IDHdyJLspaY?si=Rvl7URV23JipIWkm",
+        name: 'Making of Hello Kitty',
+        link: "https://www.youtube.com/embed/QkTQvC3lzfU?si=7V97gdYJiF8IoUAL",
       },
-      {
-        id: 2,
-        name: 'The Duel 2',
-        link: "https://www.youtube.com/embed/IDHdyJLspaY?si=Rvl7URV23JipIWkm",
-      },
-    ]
+
+    ],
   },
 ]

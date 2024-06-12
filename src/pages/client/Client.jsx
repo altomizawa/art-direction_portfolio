@@ -30,7 +30,7 @@ export default function Client() {
       </div>
       <p className='client__description'>{client.description}</p>
       {client.hasVideo && <Video />}
-      {client.imageLinks.map((image) => {
+      {client.hasPrint && client.imageLinks.map((image) => {
       return (
         <div className='client__image-wrapper' key={image.id}>
           <p>{image.name.toUpperCase()}</p>
