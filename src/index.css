@@ -603,6 +603,6 @@ p{
 
 }
 ::-webkit-scrollbar-thumb:horizontal{
-  background: white;
+  background: gray;
   border-radius: 10px;
 }

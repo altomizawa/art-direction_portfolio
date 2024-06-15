@@ -7,7 +7,7 @@
   width: 100vw;
   top: 0;
   left: 0;
-  height: 11vh;
+  height: 110px;
   padding-left: 4vw;
   display: flex;
   align-items: flex-end;
@@ -18,7 +18,7 @@
     display: flex;
     padding-inline: 1.5rem;
     gap: 2rem;
-    width: 70%;
+    width: 80%;
     overflow-x: auto;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
@@ -29,15 +29,18 @@
 .navclients__link{
   color: gray;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-wrap: nowrap;
+  margin-block: 0.5rem;
   }
   
   .navclients__link_active{
     color: orange;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-wrap: nowrap;
+    margin-block: 0.5rem;
+
 }
 
 /* ------------------ DESKTOP VERSION ----------------------- */
