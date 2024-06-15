@@ -5,8 +5,6 @@ import { useParams } from 'react-router-dom'
 
 function Clients() {
   const params = useParams();
-  const filteredArray = db.filter((item) =>item.name.toLowerCase()===params.client)
-  const client = filteredArray[0]
 
   return (
     <div className='navclients'>
