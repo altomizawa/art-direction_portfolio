@@ -30,14 +30,15 @@ import rainx from '../assets/clients/RainX_bug&tar_low.jpg'
 import socom from '../assets/clients/SOCOM_low.jpg'
 import hoover from '../assets/clients/Hoover_timesSquare.jpg'
 import mayumisDream from '../assets/clients/MAYUMISDREAM/Wiener-in-Bathtub.jpg'
-
+import korDiorama from '../assets/clients/KOR_diorama.jpg'
+import lightFixture from '../assets/clients/Luminaria.jpg'
 
 export const db = [
   {
     id: 1,
     name: "JBL",
     campaign: "Destination Anywhere Tour",
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    description: "JBL asked us to create a 5-page print ad for their line of products. Each page should showcase one of their products. However, with the same budget, we managed to deliver a full campaign that highlighted a common theme: sound quality. Our main concept was to convey that using a JBL product feels like being at a concert. To achieve this, we invented a fictional tour and partnered with a couple of bands. Each tour venue was associated with a specific context for product use, such as ‘In Your Bedroom’ or ‘On Your Way to Work.’ We designed concert posters, t-shirts, booklets resembling concert tickets, a dedicated website, and even wrapped city buses to resemble tour buses. In the end, we not only delivered a comprehensive campaign but also created something unique and memorable.",
     hasPrint: true,
     imageLinks: [
     { 
@@ -108,7 +109,7 @@ export const db = [
     id: 2,
     name: "Playstation",
     campaign: "E3 is coming to LA",
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    description: "The most important videogame trade show in world E3 (or Electronic Entertainment Expo) was held in Los Angeles and Playstation asked us to come up with a campaign to show off their brand in the show. There's nothing that says LA more than the Hollywood Sign and there's nothing that says Playstation more than the icons on the controller buttons. So we merged both icons and created one with the tagline: E3 is coming to LA. We had that displayed in the main entrance and all over the venue in posters and banners.",
     hasPrint: true,
     imageLinks: [
     {
@@ -129,7 +130,7 @@ export const db = [
     id: 3,
     name: "Michelob",
     campaign: "A pleasant surprise",
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    description: "Anheuser-Busch approached us with the purpose of increasing the sales of their lesser-known beer, Michelob. After conducting a blind taste test with several other brands, most of us chose Michelob as one of the best options. Inspired by this positive response, we developed the idea that people needed to try Michelob to be pleasantly surprised. To convey this concept in a fun and unique way, we created a campaign featuring illustrations of people in situations where they expected something else but received a Michelob beer instead. Rather than feeling disappointed, they were pleasantly surprised.",
     hasPrint: true,
     imageLinks: [
     {
@@ -317,8 +318,18 @@ export const db = [
     imageLinks: [
       {
         id: 1,
-        name: 'Wiener in a Bathtub - My daughter had this dream and I created it',
+        name: 'Wiener in a Bathtub - Created in Photoshop',
         link: mayumisDream,
+      },
+      {
+        id: 2,
+        name: 'Light Fixture - Designed by me and handmade by me and my brother-in-law',
+        link: lightFixture,
+      },
+      {
+        id: 3,
+        name: 'My box - created in Blender + Photoshop',
+        link: korDiorama,
       },
     ],
     hasVideo: true,
