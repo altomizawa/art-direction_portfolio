@@ -244,7 +244,7 @@ export const db = [
     id: 6,
     name: "Rain-X",
     campaign: "Protect your car from nature's worst",
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    description: "Rain-X, a Shell brand company, needed to advertise their product designed to remove tough-to-remove dirt, such as bug splatters, tar, and bird droppings. Our task was to create an engaging visual that effectively communicated the product’s benefits. We devised a humorous image illustrating how birds perceive our cars, with the tagline: 'Protect your car from nature’s worst.'",
     hasPrint: true,
     imageLinks: [
     {
@@ -313,7 +313,7 @@ export const db = [
     id: 10,
     name: "Miscellaneous",
     campaign: "Stuff not related to ads.",
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    description: 'Nothing on this page was comissioned. Just me doing stuff on the side purely for fun.',
     hasPrint: true,
     imageLinks: [
       {
