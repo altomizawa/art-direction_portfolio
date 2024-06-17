@@ -10,10 +10,10 @@ function Contact() {
           <p>(choose one way to connect)</p>
         </div>
         <div className='contact__links'>
-          <a href='/'>EMAIL<img src={arrow} /></a>
-          <a href='/' >LINKEDIN<img src={arrow} /></a>
-          <a href='/' >GITHUB<img src={arrow} /></a>
-          <a href='/' >WHATSAPP<img src={arrow} /></a>
+          <a href='/' target='_blank'>EMAIL<img src={arrow} /></a>
+          <a href='https://www.linkedin.com/in/alysson-tomizawa-672a586/' target='_blank'>LINKEDIN<img src={arrow} /></a>
+          <a href='https://github.com/altomizawa' target='_blank'>GITHUB<img src={arrow} /></a>
+          <a href='https://wa.me/5561998133337' target='_blank'>WHATSAPP<img src={arrow} /></a>
         </div>
       </div>
     </div>
