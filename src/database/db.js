@@ -186,7 +186,7 @@ export const db = [
     id: 4,
     name: "Whiskas",
     campaign: "Your cat has an inner beast. Feed it.",
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    description: "Cats aren’t just pets; they possess a natural instinct more akin to big felines than to typical domesticated animals. Whiskas understands this, which is why our campaign celebrates cats for what they truly are.",
     hasPrint: true,
     imageLinks: [
     {
@@ -212,7 +212,7 @@ export const db = [
     id: 5,
     name: "Pennzoil",
     campaign: "Not just oil, Pennzoil",
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    description: "If your engine came to life, what would it crave? For us, it would be Pennzoil, of course. This campaign brings engines to life so they can express how they really feel about our product.",
     hasPrint: true,
     imageLinks: [
     {
@@ -297,7 +297,7 @@ export const db = [
     id: 9,
     name: "Hoover",
     campaign: "Grabs dirt and doesn't let go.",
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis fermentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse metus nibh, pellentesque finibus dolor a, molestie vulputate ante. Ut tempus nibh nulla, quis facilisis urna condimentum non. Integer euismod id lacus et eleifend. In vitae libero consectetur, luctus eros vel, interdum ante. Aenean quis pretium lorem. Duis tempor nunc sit amet eros interdum, iaculis luctus turpis ullamcorper. Donec vitae condimentum orci, in interdum orci. Integer venenatis tortor at sem commodo faucibus.',
+    description: "Hoover released a new vacuum with more suction power than anything else in their product line. They asked us to create an out-of-home ad for Times Square. The ad was simple but very unique. We put a giant picture of the vacuum on the side of a building and attached several props to it that looked like garbage from the streets of New York.",
     hasPrint: true,
     imageLinks: [
       {
