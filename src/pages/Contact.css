@@ -31,8 +31,25 @@
 .contact__links{
   width: 80%;
   margin-left: 10%;
+
+  button{
+    display: flex;
+    align-items: center;
+  }
+
+  button:hover{
+    color: black;
+    background-color: white;
+    width: 500px;
+    transition: 300ms linear;
+    padding-left: 0.5em;
+    
+    img{
+      filter: invert(1);
+    }
+  }
   
-  a{
+  a, button{
     display: flex;
     font-size: 3rem;
     justify-content: space-between;
@@ -54,7 +71,6 @@
       filter: invert(1)
     }
   }
-
 }
 
 @media (max-width: 800px) {
@@ -77,7 +93,7 @@
     width: 80%;
     margin-left: 5%;
     
-    a{
+    a, button{
       display: flex;
       font-size: 7vw;
       justify-content: space-between;
