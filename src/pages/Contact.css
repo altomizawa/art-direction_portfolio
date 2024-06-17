@@ -1,0 +1,101 @@
+.contact{
+  background-color: orange;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .contact__container{
+    width: 100%;
+    max-width: 1440px; 
+    margin-inline: auto;
+  }
+}
+
+.contact__title{
+  width: max-content;
+  margin-left: 10%;
+
+  h1{
+    font-size: 7rem;
+    margin-bottom: -2rem;
+  }
+
+  p{
+    font-size: 1.5rem;
+    text-align: right;
+  }
+}
+
+.contact__links{
+  width: 80%;
+  margin-left: 10%;
+  
+  a{
+    display: flex;
+    font-size: 3rem;
+    justify-content: space-between;
+    width: max-content;
+    transition: 300ms linear;
+
+    img{
+      width: 3rem;
+    }
+  }
+
+  a:hover{
+    width: 500px;
+    background-color: white;
+    color: black;
+    padding-left: 0.5em;
+
+    img{
+      filter: invert(1)
+    }
+  }
+
+}
+
+@media (max-width: 800px) {
+  .contact__title{
+    width: max-content;
+    margin-left: 5%;
+  
+    h1{
+      font-size: 15vw;
+      margin-bottom: -4vw;
+    }
+  
+    p{
+      font-size: 4vw;
+      text-align: right;
+    }
+  }
+
+  .contact__links{
+    width: 80%;
+    margin-left: 5%;
+    
+    a{
+      display: flex;
+      font-size: 7vw;
+      justify-content: space-between;
+      width: max-content;
+      transition: 300ms linear;
+
+      img{
+        width: 6vw;
+      }
+    }
+  
+    a:hover{
+      width: 500px;
+      background-color: white;
+      color: black;
+      padding-left: 0.5em;
+    }
+  }
+
+
+}
