@@ -21,7 +21,6 @@ To view the live website, visit: https://alsportfolio.netlify.app/
 Home page
 
 ## VIDEO
-https://github.com/altomizawa/als-portfolio/assets/45319659/840a34d3-3f32-47f5-bcbd-4d2be66311c7
 
 
 
