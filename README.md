@@ -22,6 +22,9 @@ Home page
 
 ## VIDEO
 
+https://github.com/altomizawa/altomizawa/assets/45319659/bac9160e-13a2-40b0-8a26-b959192c9d3f
+
+
 
 
 
