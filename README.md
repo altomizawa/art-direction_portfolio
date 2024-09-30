@@ -18,7 +18,10 @@ npm run build
 To view the live website, visit: https://alsportfolio.netlify.app/
 
 ## SCREENSHOTS
-Home page
+![desktop_montage](https://github.com/user-attachments/assets/a46a382e-2d39-472f-bd45-bd5a84e1bc77)
+![Mobile1](https://github.com/user-attachments/assets/5542a3fd-4c69-4ebe-9e8d-efbc261e7520)
+![Mobile2](https://github.com/user-attachments/assets/82059a20-d371-4e4c-ab72-7663249a31c5)
+
 
 ## VIDEO
 
